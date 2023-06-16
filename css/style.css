@@ -1,0 +1,104 @@
+/* flexbox */
+/* practice */
+.section-bg {
+    background-color: #FAFAFA;
+}
+.container {
+    width: 1171px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.text-container {
+    width: 771px;
+    margin: 0 auto;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.white-element {
+    width: 371px;
+    height: 374px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-element {
+    width: 251px;
+    /* height: 116px; */
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.blue-box {
+    width: 88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 773px;
+}
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.flex-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* h/w */
+.image-container {
+    width: 1400px;
+    margin: 0 auto;
+}
+.wraper {
+    width: 936px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.right-block {
+    width: 537px;
+    display: inline-block;
+    height: 252px;
+    background-color: grey;
+    vertical-align: top;
+}
+.left-block {
+    width: 379px;
+    display: inline-block;
+    vertical-align: top;
+}
